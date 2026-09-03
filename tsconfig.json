@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "types": ["bun", "node"],
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts", "mikro-orm.config.ts"]
+}
